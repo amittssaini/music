@@ -1,5 +1,6 @@
 const userModel = require('../Models/user.model')
-const bcrypt = require('bcrypt')
+//const bcrypt = require('bcrypt')
+const bcrypt=require('bcryptjs')
 class Auth{
     // this is method which is used for creating the new user 
     signup=async(user)=>{
